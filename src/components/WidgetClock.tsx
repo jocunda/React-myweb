@@ -1,4 +1,4 @@
-import './Blog.css';
+import './Widgetclock.css';
 import styled from "styled-components";
 import { useEffect, useState } from 'react';
 import { setInterval } from 'timers';
@@ -10,6 +10,7 @@ interface DegProps {
 export const DivDeg = styled.div<DegProps>`
  transform:rotate(${props => props.degree}deg)
 `;
+
 function Eclock() {
     let newdate = new Date(),
         h = newdate.getHours(),

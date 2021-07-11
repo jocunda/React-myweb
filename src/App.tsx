@@ -1,12 +1,15 @@
 import './App.css'
-import { WidgetClock } from 'components';
+import { Router } from 'pages';
+import { BrowserRouter } from 'react-router-dom';
 
 export default function App() {
 
   return (
     <div className="App">
       <header className="App-header">
-        <WidgetClock />
+        <BrowserRouter>
+          <Router />
+        </BrowserRouter>
       </header>
     </div>
   );

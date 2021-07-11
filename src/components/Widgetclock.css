@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .clock {
-    background: #ececec;
+    background: #ffe1fa;
     width: 300px;
     height: 300px;
     margin: 8% auto 0;
     border-radius: 50%;
-    border: 14px solid #333;
+    border: 14px solid rgb(236, 134, 194);
     position: relative;
     box-shadow: 0 2vw 4vw -1vw rgba(0,0,0,0.8);
   }
@@ -69,9 +71,9 @@
   span {
     display: inline-block;
     position: absolute;
-    color: #333;
+    color: rgb(100, 36, 47);
     font-size: 22px;
-    font-family: 'Poiret One';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     z-index: 4;
   }
@@ -100,7 +102,7 @@
     z-index: 2;
     width: 2px;
     height: 15px;
-    background: #666;
+    background: rgb(129, 55, 67);
     left: 50%;
     margin-left: -1px;
     transform-origin: 50% 150px;
@@ -110,7 +112,7 @@
     z-index: 2;
     width: 4px;
     height: 25px;
-    background: #666;
+    background: rgb(129, 55, 67);
     left: 50%;
     margin-left: -1px;
     transform-origin: 50% 150px;
@@ -121,15 +123,15 @@
     width: 120px;
     height: 20px;
     border-radius: 7px;
-    background: #ccc;
+    background: rgb(201, 160, 218,0.5);
     text-align: center;
     line-height: 20px;
     color: #000;
-    font-size: 11px;
+    font-size: 15px;
     top: 200px;
     left: 50%;
     margin-left: -60px;
-    font-family: "Poiret One";
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     z-index: 3;
     letter-spacing: 3px;

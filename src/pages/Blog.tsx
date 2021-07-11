@@ -1,7 +1,9 @@
+import { WidgetClock } from "components"
 
 
 export default function Blog() {
     return <>
-        <div>Home</div>
+        <div>Blog</div>
+        <WidgetClock />
     </>
 }

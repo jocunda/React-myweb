@@ -1,0 +1,13 @@
+.upper-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 18px;
+    position: fixed;
+    top:2px;
+    right:25px;
+}
+.upper-navbar >p:hover{
+    color:rgb(14, 181, 247)
+}
