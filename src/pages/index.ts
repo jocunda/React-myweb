@@ -1,7 +1,7 @@
 import Home from "./Home";
 import Blog from "./Blog";
 import Contact from "./Contact";
-import Router from "./Router";
+import RouterConfig from "./RouterConfig";
 import Exp from "./Exp";
 import Porto from "./Porto";
 
@@ -9,7 +9,7 @@ export {
     Home,
     Blog,
     Contact,
-    Router,
+    RouterConfig,
     Exp,
     Porto
 }
