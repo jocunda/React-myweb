@@ -56,20 +56,22 @@ footer{
 
 /*exp*/
 .language-icon{
+    position:absolute;
+    left: 25px;
+    top:45px;
     display: flex;
     flex-direction: row;
     gap:5px;
 }
 
+
 .language-icon >p{
     padding:5px 8px;
     border-radius: 50px;
-    font-size: 15px;
-    border: 1px solid black;
+    font-size: 18px;
+    border: 1px solid rgb(128, 122, 122);
 }
-.language-icon >p:after{
-    content:"En";
-}
+
 
 @media only screen and (max-width: 600px) {
     .image-home{
