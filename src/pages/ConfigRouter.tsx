@@ -77,6 +77,11 @@ const routes: RouteProp[] = [
                 path: "/blog/study",
                 component: Blog,
             },
+            {
+                key: 11,
+                path: "/blog/cook",
+                component: Blog,
+            },
         ]
     },
 ]
@@ -85,15 +90,13 @@ const routes: RouteProp[] = [
 function RouteWithSubRoutes(route) {
     return <Route
         path={route.path}
-        render={props => (
-            <route.component {...props} routes={route.childRoutes} />
-        )}
+    // render={props => (
+    //     <route.component {...props} routes={route.childRoutes} />
+    // )}
     />
 
 }
 function MainRoute({ routes }) {
-
-
 
     return <>
         <Switch>
@@ -110,8 +113,8 @@ export default function ConfigRouter() {
     return <>
         <Router>
             <Navbar />
-            <Exp />
             {/* <MainRoute routes={routes} /> */}
+            <Porto />
             <footer>
                 <AiOutlineCopyright /> 2021 Silvia Jocunda
             </footer>

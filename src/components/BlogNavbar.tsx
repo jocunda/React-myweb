@@ -3,7 +3,7 @@ import {
     FaHiking,
     IoMdRestaurant,
     IoFileTrayFullSharp,
-    FaBook
+    FaBook,
 } from 'react-icons/all'
 import { useHistory } from 'react-router-dom';
 

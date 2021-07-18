@@ -5,8 +5,11 @@ import {
     FaFacebookSquare,
     SiGmail,
     SiLeetcode,
-    ImPhone
+    ImPhone,
+
 } from 'react-icons/all'
+import { TaipeiSvg } from "svgs"
+
 
 export default function Navbar() {
 
@@ -16,6 +19,9 @@ export default function Navbar() {
     }
 
     return <>
+        <div className="contact">
+            Contact Me :
+        </div>
         <div className="contact-symbol">
             <AiFillLinkedin onClick={() => openInNewTab('https://www.linkedin.com/in/silviajocunda')} />
             <GoMarkGithub onClick={() => openInNewTab('https://github.com/jocunda')} />
@@ -24,6 +30,7 @@ export default function Navbar() {
             <SiGmail onClick={() => openInNewTab('mailto:silviawanshan88@gmail.com')} title="silviawanshan88@gmail.com" />
             <ImPhone onClick={() => openInNewTab('tel:+886986406811')} title="+886986406811" />
         </div>
+        <TaipeiSvg />
 
     </>
 

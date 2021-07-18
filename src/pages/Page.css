@@ -1,4 +1,5 @@
 /*router*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 footer{
     font-size: 12px;
     position: absolute;
@@ -11,11 +12,22 @@ footer{
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
-    font-size: 25px;
+    font-size: 30px;
+    position: fixed;
+    top:150px;
+    right: 80px;
+}
+.contact{
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+    position: relative;
+    left:-150px;
+    top:50px;
 }
 .contact-symbol :hover{
     color:rgb(14, 181, 247)
 }
+
 
 /*home*/
 .image-home{
@@ -63,18 +75,119 @@ footer{
     flex-direction: row;
     gap:5px;
 }
-
-
 .language-icon >p{
     padding:5px 8px;
     border-radius: 50px;
     font-size: 18px;
     border: 1px solid rgb(128, 122, 122);
 }
+.container-data{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    position: relative;
+    top: 50px;
+}
+
+/* horizontal line */
+.container-data:after {
+    position: absolute;
+    content: " ";
+    background-color: #868686;
+    height: 2px;
+	top: 0px;
+	bottom: 50px;
+	left: 60px;
+	right: 60px;
+	width: auto;
+	margin-top: 30px;
+}
+
+.work-container{
+    font-size: 12px;
+    border: 1px solid rgb(128, 122, 122);
+    width: 200px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 15px;
+    position: relative;
+    top: 70px;
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
+.work-container.down{
+    transform: translateY(-100%);
+    position: unset;
+}
+
+.show{
+    opacity: 1;
+}
+
+.work-year{
+    font-size: 20px;
+    border: 1px solid rgb(128, 122, 122);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    gap:15px;
+    padding: 5px 0px;
+    margin: 15px 0px;
+    border-radius: 50px;
+    width: 100px;
+    z-index: 100;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.25s ease-in;
+}
+
+.work-year:hover{
+    background-color: rgba(19, 88, 134);
+    border-color: rgb(14, 181, 247);
+}
+
+.work-company >p{
+    margin:0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    justify-content: left;
+    display: flex;
+    color: rgb(203, 218, 233);
+}
+.work-company .p-bold{
+    font-weight: bold;
+}
+.work-spec {
+    border-top: 1px solid rgb(128, 122, 122);
+    display: flex;
+    justify-items:stretch;
+    padding: 8px 8px 8px 8px;
+    color:white
+}
+.univimage{
+    width: 120px;
+    position: absolute;
+    transform: translateY(-95%);
+    left:220px;
+    
+}
 
 
+/*  RWD*/
 @media only screen and (max-width: 600px) {
     .image-home{
         height:200px;
+    }
+    .contact-symbol {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 10px;
+        top:120px;
+    }
+    .contact{
+        position: absolute;
+        top:180px;
+        left: 25px;
+        font-size: 25px;
     }
   }
