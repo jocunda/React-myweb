@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/React-myweb/static/css/main.ce8ea3c8.chunk.css",
-    "main.js": "/React-myweb/static/js/main.92b746b4.chunk.js",
-    "runtime-main.js": "/React-myweb/static/js/runtime-main.49a516ff.js",
-    "static/js/2.52d11a27.chunk.js": "/React-myweb/static/js/2.52d11a27.chunk.js",
+    "main.css": "/React-myweb/static/css/main.85cd9fd0.chunk.css",
+    "main.js": "/React-myweb/static/js/main.899a8cd4.chunk.js",
+    "runtime-main.js": "/React-myweb/static/js/runtime-main.edc71535.js",
+    "static/js/2.74af6772.chunk.js": "/React-myweb/static/js/2.74af6772.chunk.js",
     "index.html": "/React-myweb/index.html",
-    "static/js/2.52d11a27.chunk.js.LICENSE.txt": "/React-myweb/static/js/2.52d11a27.chunk.js.LICENSE.txt"
+    "static/js/2.74af6772.chunk.js.LICENSE.txt": "/React-myweb/static/js/2.74af6772.chunk.js.LICENSE.txt",
+    "static/media/univ1.efc5efe7.png": "/React-myweb/static/media/univ1.efc5efe7.png",
+    "static/media/univ2.225876ea.png": "/React-myweb/static/media/univ2.225876ea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.49a516ff.js",
-    "static/js/2.52d11a27.chunk.js",
-    "static/css/main.ce8ea3c8.chunk.css",
-    "static/js/main.92b746b4.chunk.js"
+    "static/js/runtime-main.edc71535.js",
+    "static/js/2.74af6772.chunk.js",
+    "static/css/main.85cd9fd0.chunk.css",
+    "static/js/main.899a8cd4.chunk.js"
   ]
 }
