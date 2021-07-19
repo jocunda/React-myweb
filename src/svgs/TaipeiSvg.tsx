@@ -1,11 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Svg.css'
 
-const circlekey = []
-for (let k = 0; k < 22; k++) {
-    circlekey.push(k)
-}
-// console.log(circlekey)
 
 export default function TaipeiSvg() {
     const [color, setColor] = useState('')
@@ -30,7 +25,7 @@ export default function TaipeiSvg() {
             if (j === 22) {
                 j = 0
             }
-            console.log(j)
+            // console.log(j)
             setHidden(j)
 
         }, 1000)

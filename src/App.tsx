@@ -1,13 +1,13 @@
 import './App.css'
-import { ConfigRouter } from 'pages';
+import { MainRoutes } from 'routes';
 
 export default function App() {
 
   return (
     <div className="App">
       <header className="App-header">
-        <ConfigRouter />
+        <MainRoutes />
       </header>
-    </div>
+    </div >
   );
 }

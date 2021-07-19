@@ -22,10 +22,17 @@ footer{
     font-size: 45px;
     position: relative;
     left:-150px;
-    top:50px;
+    bottom: 80px;
 }
 .contact-symbol :hover{
     color:rgb(14, 181, 247)
+}
+.taipei{
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    left: 0px;
+    bottom:35px;
 }
 
 
@@ -97,8 +104,8 @@ footer{
     height: 2px;
 	top: 0px;
 	bottom: 50px;
-	left: 60px;
-	right: 60px;
+	left: 10px;
+	right: 10px;
 	width: auto;
 	margin-top: 30px;
 }
@@ -106,7 +113,7 @@ footer{
 .work-container{
     font-size: 12px;
     border: 1px solid rgb(128, 122, 122);
-    width: 200px;
+    width: 180px;
     background-color: rgb(54, 54, 54);
     border-radius: 15px;
     position: relative;

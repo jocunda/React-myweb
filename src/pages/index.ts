@@ -1,15 +1,22 @@
 import Home from "./Home";
 import Blog from "./Blog";
 import Contact from "./Contact";
-import ConfigRouter from "./ConfigRouter";
 import Exp from "./Exp";
 import Porto from "./Porto";
+import Travel from "./Travel";
+import Food from "./Food";
+import Doc from "./Doc";
+import Study from "./Study";
+
 
 export {
     Home,
     Blog,
     Contact,
-    ConfigRouter,
     Exp,
-    Porto
+    Porto,
+    Travel,
+    Food,
+    Doc,
+    Study
 }

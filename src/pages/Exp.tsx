@@ -113,8 +113,8 @@ export default function Exp() {
                             {experience.spec}
                         </div>
                         <div>
-                            {experience.year === 2014 && <img src={univ1} className="univimage" />}
-                            {experience.year === 2018 && <img src={univ2} className="univimage" />}
+                            {experience.year === 2014 && <img src={univ1} alt="univ1" className="univimage" />}
+                            {experience.year === 2018 && <img src={univ2} alt="univ2" className="univimage" />}
                         </div>
                     </div>
 
