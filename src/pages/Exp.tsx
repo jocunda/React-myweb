@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { FaBriefcase, FaGraduationCap, MdLanguage } from 'react-icons/all'
 import { useState } from 'react';
 import { univ1, univ2 } from "images"
+import { TextHeader } from 'components';
 
 const _experiences: Experience[] = [
     {
@@ -97,6 +98,8 @@ export default function Exp() {
 
 
     return <>
+        <TextHeader text={"Skills & Experience"} />
+
         <div className="container-data">
             {experiences.map((experience: Experience) =>
                 <div key={experience.id}>
@@ -113,8 +116,8 @@ export default function Exp() {
                             {experience.spec}
                         </div>
                         <div>
-                            {experience.year === 2014 && <img src={univ1} alt="univ1" className="univimage" />}
-                            {experience.year === 2018 && <img src={univ2} alt="univ2" className="univimage" />}
+                            {experience.year === 2014 && <img src={univ1} alt="univ1" className="univimage" loading="lazy" />}
+                            {experience.year === 2018 && <img src={univ2} alt="univ2" className="univimage" loading="lazy" />}
                         </div>
                     </div>
 

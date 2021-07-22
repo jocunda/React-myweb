@@ -20,3 +20,5 @@ export {
     Doc,
     Study
 }
+
+// export { default as Home } from "./Home"

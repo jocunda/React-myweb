@@ -9,6 +9,7 @@ import {
 
 } from 'react-icons/all'
 import { TaipeiSvg } from "svgs"
+import { TextHeader } from 'components'
 
 
 export default function Contact() {
@@ -19,10 +20,7 @@ export default function Contact() {
     }
 
     return <>
-        <div className="contact">
-            Contact Me :
-        </div>
-
+        <TextHeader text={"Contact MiMo~~~~"} />
         <div className="contact-symbol">
             <AiFillLinkedin onClick={() => openInNewTab('https://www.linkedin.com/in/silviajocunda')} />
             <GoMarkGithub onClick={() => openInNewTab('https://github.com/jocunda')} />

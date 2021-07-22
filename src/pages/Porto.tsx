@@ -1,8 +1,10 @@
+import { TextHeader } from "components";
 
 
 export default function Porto() {
     return <>
-        Login
+        <TextHeader text={"Portofolio"} />
         <div>Portofolio</div>
+
     </>
 }
