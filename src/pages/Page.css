@@ -181,7 +181,24 @@ footer{
     
 }
 /*portofolio*/
+.gallery{
+    -webkit-column-count: 6;
+    -moz-column-count: 6;
+    column-count: 6;
+    -webkit-column-width: 35%;
+    -moz-column-width: 35%;
+    column-width: 35%;
+    padding:100px 12px 0px 12px;
+}
+.gallery .pics{
+    cursor:pointer;
+    margin: 0px 2px 0px 2px;
+    transition:all 350ms ease;
+}
 
+.pics img{
+    width: 100%
+}
 
 
 /*blog*/

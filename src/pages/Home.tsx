@@ -50,10 +50,10 @@ function ImageSlider({ slides }) {
     return <>
         <RiArrowLeftSLine className="left-arrow" onClick={PrevSlide} />
         <RiArrowRightSLine className="right-arrow" onClick={NextSlide} />
-        {dataimages.map((slide) => {
+        {dataimages.map((slide, index) => {
 
             return <>
-                <div className={slide.key === image ? "slide active" : "slide"} key={slide.key}>
+                <div className={slide.key === image ? "slide active" : "slide"} key={index}>
                     {slide.key === image && (<img src={slide.image}
                         alt="picsum"
                         className="image-home" loading="lazy" />)}

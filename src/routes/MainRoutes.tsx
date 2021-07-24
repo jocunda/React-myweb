@@ -28,7 +28,6 @@ type RoutesProps = {
 const routes: RoutesProps[] = [
     { path: "/", component: Home },
     { path: "/home", component: Home },
-    // { path: "*", component: <Redirect to="/home" /> },mimo~~~
     { path: "/contact", component: Contact },
     { path: "/exp", component: Exp },
     { path: "/porto", component: Porto },
@@ -49,14 +48,8 @@ export default function MainRoutes() {
                         <Route exact path={route.path} component={route.component} />
                     </div>
                 )}
-                {/* <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-            <Route exact path="*"><Redirect to="/home" /></Route>
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/exp" component={Exp} />
-            <Route exact path="/porto" component={Porto} />
-            <Route exact path="/blog" component={Blog} />
-            <Route exact path="/blog/:name" component={Blog} /> */}
+                <Route exact path="*"><Redirect to="/home" /></Route>
+
                 <BlogRoutes />
             </React.Suspense>
             <footer>

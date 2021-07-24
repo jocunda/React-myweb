@@ -20,7 +20,7 @@ export default function Contact() {
     }
 
     return <>
-        <TextHeader text={"Contact MiMo~~~~"} />
+        <TextHeader text={"Contact"} />
         <div className="contact-symbol">
             <AiFillLinkedin onClick={() => openInNewTab('https://www.linkedin.com/in/silviajocunda')} />
             <GoMarkGithub onClick={() => openInNewTab('https://github.com/jocunda')} />
