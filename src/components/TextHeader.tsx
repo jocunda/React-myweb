@@ -5,9 +5,9 @@ export default function TextHeader(props) {
 
     return <>
         <div className="textzone">
-            {string1.map((word) => {
+            {string1.map((word, index) => {
                 return <>
-                    <div key={props.id} className="text">{word}</div>
+                    <div key={index} className="text">{word}</div>
                 </>
             })}
         </div>

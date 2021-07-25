@@ -1,3 +1,9 @@
+import './Component.css';
+import {
+    MdSkipPrevious,
+    MdSkipNext
+} from 'react-icons/all'
+
 
 export default function Pagination(props) {
     const pagenumber = []
@@ -7,15 +13,20 @@ export default function Pagination(props) {
     }
 
     return <>
-        <div>
-            {pagenumber.map(number => (
-                <div key={number}>
-                    <a href="!#"
-                        onClick={() => props.paginate(number)}>
+        <div className="pagenumber-container">
+            <MdSkipPrevious className="pagenumber-icon" onClick={() => props.paginate(pagenumber[0])} />
+
+            {
+                pagenumber.map((number, index) => (
+                    <a
+                        key={index}
+                        onClick={() => props.paginate(number)}
+                        className="pagenumber">
                         {number}
                     </a>
-                </div>
-            ))}
+                ))
+            }
+            < MdSkipNext className="pagenumber-icon" onClick={() => props.paginate(pagenumber[pagenumber.length - 1])} />
         </div>
     </>
 }

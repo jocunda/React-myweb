@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Redirect, Route, RouteComponentProps } from "react-router-dom"
-import { AiOutlineCopyright } from 'react-icons/all'
 import { Navbar } from "components";
 import { BlogRoutes } from "routes";
 import React from "react";
-import { StaticRouter } from "react-router";
+
 // import {
 //     Home,
 //     Contact,
@@ -52,9 +51,7 @@ export default function MainRoutes() {
 
                 <BlogRoutes />
             </React.Suspense>
-            <footer>
-                <AiOutlineCopyright /> 2021 Silvia Jocunda
-            </footer>
+
         </Router>
     </>
 }
