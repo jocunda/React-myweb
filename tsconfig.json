@@ -53,6 +53,9 @@
         "pages": [
             "src/pages"
         ],
+        "data": [
+            "src/data"
+        ],
         "routes": [
             "src/routes"
         ],

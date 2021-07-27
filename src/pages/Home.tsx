@@ -1,6 +1,6 @@
 import './Page.css'
 import { RiArrowRightSLine, RiArrowLeftSLine } from 'react-icons/all'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { TextHeader } from 'components'
 
 const dataimages: Images[] = [
@@ -47,6 +47,8 @@ function ImageSlider({ slides }) {
     if (!Array.isArray(slides) || slides.length <= 0) {
         return null
     }
+
+
     return <>
         <RiArrowLeftSLine className="left-arrow" onClick={PrevSlide} />
         <RiArrowRightSLine className="right-arrow" onClick={NextSlide} />
@@ -56,7 +58,10 @@ function ImageSlider({ slides }) {
                 <div className={slide.key === image ? "slide active" : "slide"} key={index}>
                     {slide.key === image && (<img src={slide.image}
                         alt="picsum"
-                        className="image-home" loading="lazy" />)}
+                        className="image-home" />)}
+                </div>
+                <div
+                    className={slide.key === image ? "dot active" : "dot"}>
                 </div>
             </>
 

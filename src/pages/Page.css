@@ -14,9 +14,10 @@ footer{
     flex-wrap: wrap;
     gap: 20px;
     font-size: 30px;
-    position: fixed;
-    top:150px;
+    position: absolute;
+    top:250px;
     right: 80px;
+    z-index: 50;
 }
 .contact{
     font-family: 'Kalam', cursive;
@@ -39,14 +40,16 @@ footer{
 
 /*home*/
 .image-home{
-    width: 100%;
-    height: 360px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 150%;
     opacity: 0.8;
 }
 
 .left-arrow{
     position: absolute;
-    top:50%;
+    top:70%;
     left:15px;
     font-size: 30px;
     z-index:1;
@@ -56,7 +59,7 @@ footer{
 
 .right-arrow{
     position: absolute;
-    top:50%;
+    top:70%;
     right:15px;
     font-size: 30px;
     z-index:1;
@@ -67,11 +70,28 @@ footer{
 .slide{
     opacity: 0;
     transition-duration: 1s ease-in;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left:0px;
+    height: auto;
+    max-height:100%;
 }
 
 .slide.active{
     opacity: 1;
     transition-duration: 1s;
+    
+}
+
+.dot{
+    color: red;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.dot.active{
+    color: blue;
 }
 
 
@@ -185,7 +205,7 @@ footer{
 .image-container{
     display: grid;
     grid-template-columns: repeat(4,auto) ;
-    grid-template-rows: repeat(4,250px);
+    grid-template-rows: repeat(4,300px);
     grid-gap: 5px;
     padding:0px;
     margin: 100px 5px 5px 5px;
@@ -223,9 +243,9 @@ footer{
 
 /*  RWD*/
 @media only screen and (max-width: 600px) {
-    .image-home{
+    /* .image-home{
         height:200px;
-    }
+    } */
     .contact-symbol {
         display: flex;
         flex-direction: column;
@@ -239,4 +259,15 @@ footer{
         left: 25px;
         font-size: 25px;
     }
+    .image-container{
+        grid-template-columns: repeat(2,auto) ;
+        grid-template-rows: repeat(8,200px);
+    }
   }
+
+  @media only screen and (min-width: 1300px) {
+
+.image-container{
+    grid-template-rows: repeat(4,450px);
+  }
+}
