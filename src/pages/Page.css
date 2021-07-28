@@ -55,6 +55,10 @@ footer{
     z-index:1;
     user-select:none;
     cursor: pointer;
+    opacity: 0.2;
+}
+.left-arrow:hover{
+    opacity: 1;
 }
 
 .right-arrow{
@@ -65,6 +69,10 @@ footer{
     z-index:1;
     user-select:none;
     cursor: pointer;
+    opacity: 0.2;
+}
+.right-arrow:hover{
+    opacity: 1;
 }
 
 .slide{
@@ -84,14 +92,35 @@ footer{
     
 }
 
-.dot{
-    color: red;
+.dotimage{
     border-radius: 50px;
-    border: 1px solid black;
+    border: 1px solid rgba(155, 153, 153, 0.3);
+    background-color: rgb(14, 181, 247,0.3);
+    width: 8px;
+    height: 8px;
+    padding: 0px;
+    margin: 0px;
+    z-index:1;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
-.dot.active{
-    color: blue;
+.dotactive{
+    background-color: rgb(218, 177, 226);
+    opacity: 1;
+}
+.dotimg-container{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    justify-items: center;
+    /* left:60px;
+    right:60px; */
+    top:200px;
+    /* bottom: 5px; */
+    width: auto;
+    max-width: 100%;
+    position: relative;
 }
 
 
