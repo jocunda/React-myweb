@@ -114,10 +114,7 @@ footer{
     flex-direction: row;
     gap:15px;
     justify-items: center;
-    /* left:60px;
-    right:60px; */
-    bottom:-220px;
-    /* bottom: 5px; */
+    bottom:-300px;
     width: auto;
     max-width: 100%;
     position: relative;
