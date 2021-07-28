@@ -1,0 +1,1 @@
+(this["webpackJsonpmy-web"]=this["webpackJsonpmy-web"]||[]).push([[4],{73:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return r}));var c=t(2);function r(){return Object(c.jsx)(c.Fragment,{children:Object(c.jsx)("div",{children:"Doc"})})}}}]);
