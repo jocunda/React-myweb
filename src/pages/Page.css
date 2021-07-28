@@ -116,7 +116,7 @@ footer{
     justify-items: center;
     /* left:60px;
     right:60px; */
-    top:200px;
+    bottom:-220px;
     /* bottom: 5px; */
     width: auto;
     max-width: 100%;
