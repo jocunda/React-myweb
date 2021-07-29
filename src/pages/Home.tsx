@@ -1,7 +1,8 @@
 import './Page.css'
 import { RiArrowRightSLine, RiArrowLeftSLine } from 'react-icons/all'
 import { useEffect, useState } from 'react'
-import { TextHeader } from 'components'
+import { TextHeaderHome } from 'components'
+
 
 const dataimages: Images[] = [
     { image: "https://picsum.photos/id/1049/1900/600", key: 0 },
@@ -15,6 +16,7 @@ const dataimages: Images[] = [
     { image: "https://picsum.photos/id/1055/1900/600", key: 8 },
     { image: "https://picsum.photos/id/1056/1900/600", key: 9 },
 ]
+
 
 type Images = {
     image: string
@@ -70,7 +72,7 @@ function ImageSlider({ slides, autoPlayTime }) {
 
 export default function Home() {
     return <>
-
+        <TextHeaderHome text1={"Hi~I'm"} text2={"Silvia Jocunda"} />
         <div>
             <ImageSlider slides={dataimages} autoPlayTime={3000} />
         </div>

@@ -5,6 +5,8 @@ import TextHeader from "./TextHeader";
 import Pagination from "./Pagination";
 import ImageRenderer from "./ImageRenderer";
 import useIntersectionObserver from "./useIntersectionObserver";
+import Skill from "./Skill"
+import TextHeaderHome from "./TextHeaderHome";
 
 export {
     WidgetClock,
@@ -13,5 +15,7 @@ export {
     TextHeader,
     Pagination,
     ImageRenderer,
-    useIntersectionObserver
+    useIntersectionObserver,
+    Skill,
+    TextHeaderHome
 }
