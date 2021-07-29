@@ -1,1 +1,0 @@
-(this["webpackJsonpmy-web"]=this["webpackJsonpmy-web"]||[]).push([[9],{74:function(t,e,n){"use strict";n.r(e),n.d(e,"default",(function(){return r}));var c=n(2);function r(){return Object(c.jsx)(c.Fragment,{children:Object(c.jsx)("div",{children:"Study"})})}}}]);
