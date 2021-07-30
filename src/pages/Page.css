@@ -257,26 +257,24 @@ footer{
 
 
 /*  RWD*/
-@media only screen and (max-width: 600px) {
-    /* .image-home{
-        height:200px;
-    } */
+@media only screen and (max-width: 640px) {
+    .image-home{
+        margin: 25px 0px;
+        height: 250px;
+        width: 250%;
+    }
     .contact-symbol {
         display: flex;
         flex-direction: column;
         position: absolute;
-        right: 10px;
-        top:120px;
-    }
-    .contact{
-        position: absolute;
-        top:180px;
-        left: 25px;
-        font-size: 25px;
+        right: 150px;
+        top:250px;
     }
     .image-container{
         grid-template-columns: repeat(2,auto) ;
-        grid-template-rows: repeat(8,200px);
+        grid-template-rows: repeat(8,250px);
+        grid-gap:8px;
+        margin-top: 200px;
     }
   }
 

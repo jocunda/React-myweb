@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 .upper-navbar{
     display: flex;
@@ -361,4 +361,39 @@
     align-items: center;
     justify-content: center;
     gap:5px;
+}
+
+@media only screen and (max-width: 650px) {
+    .textheaderhome{
+        font-size: 60px;
+    }
+    .textheaderhomezone{
+        left: 20px;
+        top: 190px;
+    }
+    .textheaderhomezone2{
+        left:90px;
+        top: 250px;
+    }
+    .upper-navbar{
+        display: grid;
+        grid-template-columns: repeat(3,100px) ;
+        grid-template-rows: repeat(2,50px);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 15px;
+        margin-top: 5px;
+        position: fixed;
+        font-size: 25px;
+        padding: 0px 5px;
+        font-family: 'Neucha', cursive;
+    }
+    .textzone{
+        left: 20px;
+        top: 120px;
+    }
+    .text{
+        font-size: 50px;
+        color: rgb(138, 221, 244);
+    }
 }
