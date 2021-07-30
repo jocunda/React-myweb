@@ -41,9 +41,9 @@ export default function TextHeaderHome(props) {
 
 
     return <>
-        <div className="textheaderhome-container">
+        <div>
             <div className="textheaderhomezone">
-                {string1.map((word, index) => {
+                {string1.map((word: string, index: number) => {
                     return <>
                         <WordDiv
                             key={index}
@@ -55,7 +55,7 @@ export default function TextHeaderHome(props) {
             </div>
 
             <div className="textheaderhomezone2">
-                {string2.map((word, index) => {
+                {string2.map((word: string, index: number) => {
                     return <>
                         <WordDiv key={index} className="textheaderhome"
                             color={datacolors1[index]}

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
 
 .upper-navbar{
     display: flex;
@@ -158,9 +160,6 @@
 }
 
 /* text headerhome */
-.textheaderhome-container{
-    
-}
 
 .textheaderhome{
     font-size: 120px;
@@ -218,4 +217,140 @@
     }
 }
 
+/* language */
+.language-icon{
+    position:absolute;
+    left: 25px;
+    top:120px;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.language-icon >p{
+    padding:5px 8px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 1px solid rgb(128, 122, 122);
+}
+/* language-text */
+.language-text{
+    border: 1px solid rgba(128, 122, 122, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px;
+    font-size: 18px;
+    position:absolute;
+    left: 160px;
+    top:100px;
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
 
+
+/* skill */
+.skill-container{
+    position:absolute;
+    left: 25px;
+    top:200px;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.skill-icon{
+    border:1px solid grey;
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    font-size: 18px;
+}
+.skill-title{
+    font-size: 18px;
+    display: flex;
+    gap:8px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Delius', cursive;
+}
+
+.skill-box{
+    border:1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+    padding: 0px 5px;
+    color:rgb(43, 43, 43);
+}
+.skill-boxback{
+    border:1px solid grey;
+    border-radius: 10px;
+    padding: 0px 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-boxback p{
+    line-height: 1;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.skill{
+    display: flex;
+    gap:5px;
+    font-size: 25px;
+    justify-content: center;
+}
+.flip-card {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    perspective: 600px;
+    margin: 0px 35px;
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-card:hover .skill-box {
+    z-index: 0;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotateY(180deg);
+  }
+  .flip-card:hover .skill-boxback {
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotateY(0deg);
+  }
+  .flip-card .skill-box,
+.flip-card .skill-boxback {
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+}
+.flip-card .skill-box {
+  z-index: 2;
+}
+.flip-card .skill-boxback {
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotateY(180deg);
+  background-color:rgb(211, 235, 232);
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:black;
+  
+}

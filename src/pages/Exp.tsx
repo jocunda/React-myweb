@@ -2,13 +2,11 @@ import './Page.css'
 import {
     FaBriefcase,
     FaGraduationCap,
-    MdLanguage,
-    VscSettingsGear,
 
 } from 'react-icons/all'
 import { useState } from 'react';
 import { univ1, univ2 } from "images"
-import { TextHeader } from 'components';
+import { Languages, Skill, TextHeader } from 'components';
 
 const _experiences: Experience[] = [
     {
@@ -123,10 +121,7 @@ export default function Exp() {
                 </div>
             )}
         </div>
-        <div className="skill-container">
-            <p><MdLanguage className="lang-icon" /> Languages</p>
-            <p><VscSettingsGear className="lang-icon" /> Skills</p>
-        </div>
-
+        <Languages />
+        <Skill />
     </>
 }

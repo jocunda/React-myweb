@@ -7,6 +7,7 @@ import ImageRenderer from "./ImageRenderer";
 import useIntersectionObserver from "./useIntersectionObserver";
 import Skill from "./Skill"
 import TextHeaderHome from "./TextHeaderHome";
+import Languages from "./Languages";
 
 export {
     WidgetClock,
@@ -17,5 +18,6 @@ export {
     ImageRenderer,
     useIntersectionObserver,
     Skill,
-    TextHeaderHome
+    TextHeaderHome,
+    Languages
 }

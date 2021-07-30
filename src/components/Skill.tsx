@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import './Component.css';
 import {
     DiHtml5,
     RiCss3Fill,
@@ -6,53 +6,137 @@ import {
     SiJavascript,
     IoLogoReact,
     SiAdobeillustrator,
-    DiPhotoshop,
-    SiMicrosoftoffice,
+    SiAdobephotoshop,
     SiAutodesk,
     SiAdobeaftereffects,
     SiVisualstudiocode,
-    SiTypescript
+    SiTypescript,
+    VscSettingsGear,
+    SiMicrosoftword,
+    SiMicrosoftexcel,
+    SiMicrosoftpowerpoint,
+    AiOutlineFormatPainter,
+    FiGithub,
+    SiReactrouter,
+    IoLibrarySharp,
+    HiOutlineCode,
+    CgFormatText,
+    VscSourceControl,
+    FaPencilAlt
 
 } from 'react-icons/all'
+import styled from 'styled-components';
 
-interface LangProps {
-    color?: string
+
+interface SkillProps {
+    color: string
 }
-export const LanguageP = styled.p<LangProps>`
-    &:hover {
-        background-color:${props => props.color}
-    }
+
+export const Skillbox = styled.div<SkillProps>`
+    background-color:${props => props.color}
 `;
 
+
 export default function Skill() {
+
+
+
     return <>
-        <div className="language-icon">
+        <div className="skill-container">
+            <p className="skill-icon"><VscSettingsGear /> Skills</p>
+            <div className="flip-card">
+                <Skillbox className="skill-box" color={"rgb(13, 154, 200)"}>
+                    <p className="skill-title"><HiOutlineCode />Languages</p>
+                    <div className="skill">
+                        <DiHtml5 />
+                        <RiCss3Fill />
+                        <SiJavascript />
+                        <SiTypescript />
+                    </div>
+                </Skillbox>
+                <div className="skill-boxback">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                    <p>Typescript</p>
+                </div>
+            </div>
 
-            <LanguageP color={"rgb(237, 45, 45)"} title="English">En</LanguageP>
-            <LanguageP color={"rgb(255, 101, 33)"} title="Chinese" >中</LanguageP>
-            <LanguageP color={"rgb(254, 246, 55)"} title="Indonesia">Id</LanguageP>
-            <LanguageP color={"rgb(127, 251, 3)"} title="Cantonese" >粵</LanguageP>
-            <LanguageP color={"rgb(14, 181, 247)"} title="Teochew" >潮</LanguageP>
-            <LanguageP color={"rgb(188, 13, 255)"} title="Hakka" >客</LanguageP>
-
-            <DiHtml5 />
-            <RiCss3Fill />
-            <SiStyledComponents />
-            <SiJavascript />
-            <IoLogoReact />
-            <SiAdobeillustrator />
-            <DiPhotoshop />
-            <SiMicrosoftoffice />
-            <SiAutodesk />
-            SKETCHUP,REVIT, AUTOCAD, LUMION,NAVISWORK,DWG
-            <SiVisualstudiocode />
-            <SiAdobeaftereffects />
-            <SiTypescript />
+            <div className="flip-card">
+                <Skillbox className="skill-box" color={"rgb(13, 152, 187)"}>
+                    <p className="skill-title"><IoLibrarySharp />Libraries</p>
+                    <div className="skill">
+                        <SiStyledComponents />
+                        <SiReactrouter />
+                    </div>
+                </Skillbox>
+                <div className="skill-boxback">
+                    <p>Styled Component</p>
+                    <p>React-Router</p>
+                </div>
+            </div>
+            <div className="flip-card">
+                <Skillbox className="skill-box" color={"rgb(42, 167, 188)"}>
+                    <p className="skill-title"><IoLogoReact />Framework</p>
+                    <IoLogoReact />
+                </Skillbox>
+                <div className="skill-boxback">
+                    <p>React</p>
+                </div>
+            </div>
+            <div className="flip-card">
+                <Skillbox className="skill-box" color={"rgb(71, 182, 188)"}>
+                    <p className="skill-title"><VscSourceControl />Version</p>
+                    <FiGithub />
+                </Skillbox>
+                <div className="skill-boxback">
+                    <p>Github</p>
+                </div>
+            </div>
+            <div className="flip-card">
+                <Skillbox className="skill-box" color={"rgb(101, 196, 189)"}>
+                    <p className="skill-title"><AiOutlineFormatPainter />Media</p>
+                    <div className="skill">
+                        <SiAdobeillustrator />
+                        <SiAdobephotoshop />
+                        <SiAdobeaftereffects />
+                    </div>
+                </Skillbox>
+                <div className="skill-boxback">
+                    <p>Illustrator</p>
+                    <p>Photoshop</p>
+                    <p>After Effect</p>
+                </div>
+            </div>
+            <div className="flip-card" >
+                <Skillbox className="skill-box" color={"rgb(130, 211, 189)"}>
+                    <p className="skill-title"><FaPencilAlt />Draw</p>
+                    <SiAutodesk />
+                </Skillbox>
+                <div className="skill-boxback">
+                    <p>AutoCAD</p>
+                </div>
+            </div>
+            <div className="flip-card">
+                <Skillbox className="skill-box" color={"rgb(159, 226, 190)"}>
+                    <p className="skill-title"><CgFormatText />Text</p>
+                    <div className="skill">
+                        <SiVisualstudiocode />
+                        <SiMicrosoftword />
+                        <SiMicrosoftexcel />
+                        <SiMicrosoftpowerpoint />
+                    </div>
+                </Skillbox>
+                <div className="skill-boxback">
+                    <p>VS Code</p>
+                    <p>Word</p>
+                    <p>Excel</p>
+                    <p>PowerPoint</p>
+                </div>
+            </div>
 
 
         </div>
-        <div className="language-icon">
 
-        </div>
     </>
 }
