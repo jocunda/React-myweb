@@ -26,6 +26,7 @@ import {
 
 } from 'react-icons/all'
 import styled from 'styled-components';
+import { Sketchup, Lumion } from "svgs";
 
 
 interface SkillProps {
@@ -111,10 +112,18 @@ export default function Skill() {
             <div className="flip-card" >
                 <Skillbox className="skill-box" color={"rgb(130, 211, 189)"}>
                     <p className="skill-title"><FaPencilAlt />Draw</p>
-                    <SiAutodesk />
+                    <div className="svg-row">
+                        <SiAutodesk />
+                        <Sketchup />
+                        <Lumion />
+                    </div>
                 </Skillbox>
                 <div className="skill-boxback">
                     <p>AutoCAD</p>
+                    <p>Revit</p>
+                    <p>Naviswork</p>
+                    <p>Sketchup</p>
+                    <p>Lumion</p>
                 </div>
             </div>
             <div className="flip-card">
