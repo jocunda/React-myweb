@@ -5,6 +5,7 @@ export default function useIntersectionObserver<T extends Element>(
 ): boolean {
     // State and setter for storing whether element is visible
     const [isIntersecting, setIntersecting] = useState<boolean>(false);
+
     useEffect(() => {
         const observer = new IntersectionObserver(
             ([entry]) => {
@@ -27,7 +28,7 @@ export default function useIntersectionObserver<T extends Element>(
                 observer.unobserve(ref.current);
             }
         };
-    }, []); // Empty array ensures that effect is only run on mount and unmount
+    }, [ref]); // Empty array ensures that effect is only run on mount and unmount
 
     return isIntersecting;
 }

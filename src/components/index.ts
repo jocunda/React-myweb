@@ -7,6 +7,8 @@ import ImageRenderer from "./ImageRenderer";
 import useIntersectionObserver from "./useIntersectionObserver";
 import Skill from "./Skill"
 import TextHeaderHome from "./TextHeaderHome";
+import TextHeaderBlog from "./TextHeaderBlog";
+import BlogAbout from "./BlogAbout";
 import Languages from "./Languages";
 
 export {
@@ -19,5 +21,7 @@ export {
     useIntersectionObserver,
     Skill,
     TextHeaderHome,
-    Languages
+    Languages,
+    TextHeaderBlog,
+    BlogAbout
 }

@@ -230,7 +230,7 @@ footer{
 
 /*blog*/
 .widget-blog{
-    position: absolute;
+
     right:100px;
     top:100px;
 }
@@ -253,7 +253,20 @@ footer{
 .clockhidden{
     display: none;
 }
+.side-info{
+    position:absolute;
+    right:25px;
+    top: 150px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
 
+.menu-hidden{
+    visibility: hidden;
+}
 
 
 /*  RWD*/
@@ -317,7 +330,17 @@ footer{
     .right-arrow{
         top:80%;
     }
-    
+    .menu-hidden{
+        visibility: visible;
+        font-size: 30px;
+        position: fixed;
+        top:80px;
+        right: 25px;
+
+    }
+    .side-info{
+        visibility: hidden;
+    }
   }
 
   @media only screen and (min-width: 1300px) {

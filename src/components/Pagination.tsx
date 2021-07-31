@@ -18,12 +18,12 @@ export default function Pagination(props) {
 
             {
                 pagenumber.map((number, index) => (
-                    <a
+                    <button
                         key={index}
                         onClick={() => props.paginate(number)}
                         className="pagenumber">
                         {number}
-                    </a>
+                    </button>
                 ))
             }
             < MdSkipNext className="pagenumber-icon" onClick={() => props.paginate(pagenumber[pagenumber.length - 1])} />

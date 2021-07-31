@@ -1,9 +1,10 @@
-import { WidgetClock, BlogNavbar, TextHeader } from "components"
+import { WidgetClock, BlogNavbar, TextHeaderBlog, BlogAbout } from "components"
 import { BlogRoutes } from 'routes';
 import {
     BsClockFill,
     CgProfile,
-    BsCalendarFill
+    BsCalendarFill,
+    FaHamburger
 
 } from 'react-icons/all'
 
@@ -12,17 +13,21 @@ export default function Blog() {
 
     return <>
         <BlogRoutes />
-        <TextHeader text={"Blog"} />
-        <div className="blognavbar-icon">
+        <FaHamburger className="menu-hidden" />
+        <TextHeaderBlog text1={"Welcome"} text2={"歡迎"} />
+        <div className="side-info">
+            <BlogAbout />
+            <BlogNavbar />
+            <div className="widget-blog">
+                <WidgetClock />
+            </div>
+        </div>
+        {/* <div className="blognavbar-icon">
             <CgProfile />
             <BsClockFill />
             <BsCalendarFill />
-        </div>
-        <div className="widget-blog">
+        </div> */}
 
-            <WidgetClock />
-        </div>
 
-        <BlogNavbar />
     </>
 }

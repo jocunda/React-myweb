@@ -15,9 +15,13 @@ border-radius: 8px;
 border: 1px solid grey;
 padding:6px;
 margin: 5px;
-font-size: 30px;
+display: flex;
+align-items: center;
+gap:5px;
+font-size: 24px;
 text-decoration: none;
 color:rgb(141, 141, 141);
+font-family: 'Shadows Into Light', cursive;
 
 &:hover{
     color:rgb(14, 181, 247);
@@ -28,10 +32,10 @@ export default function BlogNavbar() {
 
     return <>
         <div className="blog-navbar">
-            <StyledLink to="/blog/travel"><FaHiking title="Travel" /></StyledLink>
-            <StyledLink to="/blog/food"><IoMdRestaurant title="Culinary" /></StyledLink>
-            <StyledLink to="/blog/doc"><IoFileTrayFullSharp title="Document" /></StyledLink>
-            <StyledLink to="/blog/study"><FaBook title="Study" /></StyledLink>
+            <StyledLink to="/blog/travel"><FaHiking />Travel</StyledLink>
+            <StyledLink to="/blog/food"><IoMdRestaurant />Culinary</StyledLink>
+            <StyledLink to="/blog/doc"><IoFileTrayFullSharp />Document</StyledLink>
+            <StyledLink to="/blog/study"><FaBook />Study</StyledLink>
         </div>
     </>
 

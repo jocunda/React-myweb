@@ -33,7 +33,7 @@ export default function ImageRenderer(props: ImageRender) {
                 onLoad()
             }
         }
-    }, [isVisible, onLoad])
+    }, [isVisible, onLoad, isinview])
 
     const [model, setModel] = useState(false)
     const [tempimg, setTempimg] = useState('')
@@ -54,7 +54,7 @@ export default function ImageRenderer(props: ImageRender) {
                 <img src={tempimg} alt="" />
                 <p>{text}</p>
                 {
-                    olink !== "" ? <a href={olink} target="_blank" className="ext-icon"><BiLinkExternal /></a> : ""
+                    olink !== "" ? <a href={olink} target="_blank" rel="noreferrer" className="ext-icon"><BiLinkExternal /></a> : ""
                 }
 
             </div>
