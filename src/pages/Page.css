@@ -311,6 +311,12 @@ footer{
         transform: translateY(-110%);
         left:200px;
     }
+    .left-arrow{
+        top:80%;
+    }
+    .right-arrow{
+        top:80%;
+    }
     
   }
 
