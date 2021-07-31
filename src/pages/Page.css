@@ -267,7 +267,7 @@ footer{
         display: flex;
         flex-direction: column;
         position: absolute;
-        right: 150px;
+        right: 100px;
         top:250px;
     }
     .image-container{
@@ -276,6 +276,42 @@ footer{
         grid-gap:8px;
         margin-top: 200px;
     }
+    .container-data{
+        flex-direction: column;
+        gap:80px;
+        top: 650px;
+    }
+    .container-data:after {
+        width: 2px;
+        height: auto;
+        top: 0px;
+        bottom: 0px;
+        left: 50px;
+        height: auto;
+    }
+    .work-year{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        padding: 5px 0px;
+        margin: 15px 0px;
+        width: 100px;
+    }
+    .work-container{
+        top:70px;
+        left: -50px;
+        z-index: 100;
+    }
+    .work-container.down{
+        transform: translateY(5%);
+        position: relative;
+    }
+    .univimage{
+        width: 90px;
+        transform: translateY(-110%);
+        left:200px;
+    }
+    
   }
 
   @media only screen and (min-width: 1300px) {

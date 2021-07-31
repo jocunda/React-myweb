@@ -389,11 +389,52 @@
         font-family: 'Neucha', cursive;
     }
     .textzone{
-        left: 20px;
-        top: 120px;
+        left: 5px;
+        top: 130px;
     }
     .text{
-        font-size: 50px;
+        font-size: 38px;
         color: rgb(138, 221, 244);
     }
+    .language-icon{
+        left: 10px;
+        top:200px;   
+    }
+    .language-icon >p{
+        padding:5px;
+        font-size: 15px;
+    }
+    .language-text{
+        font-size: 15px;
+        left: 120px;
+        top:180px;
+    }
+    .skill-container{
+        left: 5px;
+        top:260px;
+        display:grid;
+        grid-template-columns: repeat(2,120px) ;
+        grid-template-rows: repeat(7,90px);
+        grid-gap: 0px;
+        justify-content:left;
+        align-items:flex-start;
+    }
+    .skill{
+        font-size: 20px;
+    }
+    .skill-icon{
+        font-size: 15px;
+        padding: 0px;
+        width: 80px;
+    }
+    .skill-title{
+        font-size: 15px;
+    }
+      .flip-card .skill-box,
+    .flip-card .skill-boxback {
+      width: 100px;
+      height: 80px;
+    }
+
+
 }

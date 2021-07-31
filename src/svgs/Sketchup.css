@@ -8,3 +8,9 @@ svg{
     height: 25px;
     padding: 0px;
 }
+@media only screen and (max-width: 650px) {
+    .svg-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
