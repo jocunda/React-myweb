@@ -51,6 +51,16 @@
     line-height: 1;
     margin-bottom: 5px;
 }
+/* BackBlogIcon */
+
+.backblog-icon{
+    font-size: 50px;
+    position: absolute;
+    top:80px;
+    left: 25px;
+    z-index: 500;
+}
+
 
 /* text header */
 .text{
@@ -427,6 +437,8 @@
     justify-content: center;
     gap:5px;
 }
+
+
 
 @media only screen and (max-width: 650px) {
     .textheaderhome{

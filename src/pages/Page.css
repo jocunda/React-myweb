@@ -267,6 +267,14 @@ footer{
 .menu-hidden{
     visibility: hidden;
 }
+/*travel*/
+.map-container{
+    position: absolute;
+    left:25px;
+    top:50px;
+    width: 800px;
+    height: 800px;
+}
 
 
 /*  RWD*/

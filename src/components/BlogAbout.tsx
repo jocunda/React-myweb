@@ -9,7 +9,7 @@ export default function BlogAbout() {
             <img src={silvia} alt="pp" />
             <p>
                 Hello World!<br />
-                Beginner level of frontend web design and development.<br />
+                Novice level of frontend web design and development.<br />
                 Love to cook, travel, study, and have high interest for technology.
             </p>
         </div>
