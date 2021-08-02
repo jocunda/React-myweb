@@ -9,7 +9,16 @@ svg{
     stroke-linejoin:round;
     cursor: pointer;
 }
-
-#TWN1156 :hover{
+.select{
     fill:rgb(14, 181, 247);
+}
+
+.city-name{
+    visibility: hidden;
+}
+
+.citynameshow{
+    position: relative;
+    visibility: visible;
+    width: 50%;
 }
