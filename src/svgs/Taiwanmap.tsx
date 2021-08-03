@@ -1,17 +1,7 @@
 import { useState } from 'react'
 import './Taiwanmap.css'
 import { taiwancities } from "data"
-import styled from 'styled-components';
 
-
-interface AreaProps {
-	positionX: number
-	positionY: number
-}
-export const Taiwanarea = styled.p<AreaProps>`
-    left:${props => props.positionX}px;
-	top:${props => props.positionY}px;
-`;
 
 export default function Taiwanmap() {
 	const [areaid, setIdarea] = useState<string>()
@@ -19,11 +9,10 @@ export default function Taiwanmap() {
 	function selectArea(props) {
 		setIdarea(props)
 	}
-	console.log(taiwancities)
 
 	return <>
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-			viewBox="0 0 1000 1295" xmlSpace="preserve">
+			viewBox="0 0 1065 1295" xmlSpace="preserve">
 			<path id={areaid} onClick={() => selectArea("TWN1156")} className={areaid === "TWN1156" ? "basetwcolor select" : "basetwcolor"} d="M739.8,857.3l1.9,5.8l-3,5l-5.6,2.4l-1.4,3.2l1,4l5.6,3.6l6.3,5.2l2.8,7.6l0.3,2.5l-15.6,3.8
 	l-6.4,4.1l-4,3.9l-7.8,5.1l-0.9,5.7l2.3,6l-2.7,4.9l-7.4,4l-0.8,6.9l2.1,9.9l-3,13.2l-0.1,11.2l-4.3,5.9l-8.5,7.2l-2.3,9.8l1.3,8.1
 	l3,4.6l6.2,6.4l1.2,4.9l-3.9,0.5l-5.2-0.9l-4.3,0.2l-8.5,6.7l-5.9-5.5l-7.6-8.9l-7.2,1.8l-6.6,5.9l-13.1-6.6l-9.4,4.5l-6.4,7.1
@@ -186,14 +175,38 @@ export default function Taiwanmap() {
 			{/* <rect id={areaid} x="894" y="358" onClick={() => selectArea("_x30_")} className={areaid === "_x30_" ? "basetwcolor select" : "basetwcolor"} width="0" height="0" />
 			<rect id={areaid} x="669.9" y="526.1" onClick={() => selectArea("_x31_")} className={areaid === "_x31_" ? "basetwcolor select" : "basetwcolor"} width="0" height="0" />
 			<rect id={areaid} x="569.7" y="1021.4" onClick={() => selectArea("_x32_")} className={areaid === "_x32_" ? "basetwcolor select" : "basetwcolor"} width="0" height="0" /> */}
+			<g id="Layer_2">
+				<text transform="matrix(1 0 0 1 287.3009 1086.4998)" className={areaid === "TWN1156" ? "twcity-label" : "labelhidden"}>Kaohsiung / 高雄</text>
+				<text transform="matrix(1 0 0 1 446.9175 1215.0002)" className={areaid === "TWN1158" ? "twcity-label" : "labelhidden"}>Pingtung / 屏東</text>
+				<text transform="matrix(1 0 0 1 304.6099 977.2396)" className={areaid === "TWN1160" ? "twcity-label" : "labelhidden"}>Tainan / 台南</text>
+				<text transform="matrix(1 0 0 1 430.6462 469.5998)" className={areaid === "TWN1161" ? "twcity-label" : "labelhidden"}>Hsinchu City / 新竹市</text>
+				<text transform="matrix(1 0 0 1 524.9809 429.6274)" className={areaid === "TWN1162" ? "twcity-label" : "labelhidden"}>Hsinchu / 新竹</text>
+				<text transform="matrix(1 0 0 1 465.8398 532.9)" className={areaid === "TWN1165" ? "twcity-label" : "labelhidden"}>Miaoli / 苗栗</text>
+				<text transform="matrix(1 0 0 1 798.0922 260.2363)" className={areaid === "TWN1164" ? "twcity-label" : "labelhidden"}>Keelung City / 基隆</text>
+				<text transform="matrix(1 0 0 1 886.6469 545.4004)" className={areaid === "TWN1163" ? "twcity-label" : "labelhidden"}>Yilan / 宜蘭</text>
+				<text transform="matrix(1 0 0 1 633.7136 338.9406)" className={areaid === "TWN1166" ? "twcity-label" : "labelhidden"}>Taipei City / 台北</text>
+				<text transform="matrix(1 0 0 1 727.6852 297.0023)" className={areaid === "TWN1167" ? "twcity-label" : "labelhidden"}>New Taipei City / 新北</text>
+				<text transform="matrix(1 0 0 1 339.2659 894.6002)" className={areaid === "TWN1170" ? "twcity-label" : "labelhidden"}>Chiayi / 嘉義</text>
+				<text transform="matrix(1 0 0 1 347.8871 692.3006)" className={areaid === "TWN1169" ? "twcity-label" : "labelhidden"}>Changhua / 彰化</text>
+				<text transform="matrix(1 0 0 1 551.9265 380.7501)" className={areaid === "TWN1168" ? "twcity-label" : "labelhidden"}>Taoyuan / 桃園</text>
+				<text transform="matrix(1 0 0 1 252.957 863.8004)" className={areaid === "TWN1171" ? "twcity-label" : "labelhidden"}>Chiayi City / 嘉義市</text>
+				<text transform="matrix(1 0 0 1 822.7891 808.6003)" className={areaid === "TWN1172" ? "twcity-label" : "labelhidden"}>Hualien / 花蓮</text>
+				<text transform="matrix(1 0 0 1 641.6902 726.5808)" className={areaid === "TWN1173" ? "twcity-label" : "labelhidden"}>Nantou / 南投</text>
+				<text transform="matrix(1 0 0 1 722.2191 1154.1495)" className={areaid === "TWN1177" ? "twcity-label" : "labelhidden"}>Taitung /台東</text>
+				<text transform="matrix(1 0 0 1 362.1906 606.0957)" className={areaid === "TWN1174" ? "twcity-label" : "labelhidden"}>Taichung City / 台中</text>
+				<text transform="matrix(1 0 0 1 347.805 773.8001)" className={areaid === "TWN1176" ? "twcity-label" : "labelhidden"}>Yunlin / 雲林</text>
+				<text transform="matrix(1 0 0 1 156.4223 807.5003)" className={areaid === "TWN3414" ? "twcity-label" : "labelhidden"}>Penghu / 澎湖</text>
+				<text transform="matrix(1 0 0 1 30.2982 614.9892)" className={areaid === "TWN3415" ? "twcity-label" : "labelhidden"}>Kinmen / 金門</text>
+				<text transform="matrix(1 0 0 1 468.7559 96.1804)" className={areaid === "TWN5128" ? "twcity-label" : "labelhidden"}>Lienchiang / 連江</text>
+			</g>
+
 		</svg>
 
 		{taiwancities.map((city) =>
-			<Taiwanarea
+			<p
 				id={city.citycode}
 				className={areaid === city.citycode ? "city-name citynameshow" : "city-name"}
-				positionX={city.posX} positionY={city.posY}
-			>{city.cityname}</Taiwanarea>
+			>{city.cityname}</p>
 		)}
 	</>
 }

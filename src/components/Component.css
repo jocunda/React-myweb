@@ -523,7 +523,9 @@
         left:160px;
         top: 160px;
     }
-
+    .backblog-icon{
+        top:120px;
+    }
 }
 
 /* font-family: 'Hachi Maru Pop', cursive;
