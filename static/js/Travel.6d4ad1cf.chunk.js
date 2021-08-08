@@ -1,1 +1,0 @@
-(this["webpackJsonpmy-web"]=this["webpackJsonpmy-web"]||[]).push([[8],{69:function(e,n,t){},76:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return r}));var c=t(21),s=t(26),i=(t(69),t(1));function r(){return Object(i.jsxs)(i.Fragment,{children:[Object(i.jsx)(s.a,{}),Object(i.jsx)("div",{className:"map-container",children:Object(i.jsx)(c.d,{})})]})}}}]);
