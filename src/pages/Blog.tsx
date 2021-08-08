@@ -5,6 +5,7 @@ import {
 
 } from 'react-icons/all'
 import { useState } from "react";
+import { BlogCard } from "components";
 
 
 
@@ -22,7 +23,8 @@ export default function Blog() {
                 <WidgetClock />
             </div>
         </div>
-        <div>Blog</div>
+
+
 
     </>
 }

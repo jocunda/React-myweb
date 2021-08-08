@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './Taiwanmap.css'
 import { taiwancities } from "data"
+import { BlogCard } from "components"
 
 
 export default function Taiwanmap() {
@@ -208,5 +209,9 @@ export default function Taiwanmap() {
 				className={areaid === city.citycode ? "city-name citynameshow" : "city-name"}
 			>{city.cityname}</p>
 		)}
+
+		<div className="blogcard-container">
+			<BlogCard />
+		</div>
 	</>
 }

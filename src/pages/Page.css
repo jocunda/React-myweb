@@ -236,7 +236,7 @@ footer{
 
 .side-info{
     position:absolute;
-    right:25px;
+    right:15px;
     top: 150px;
     width: 350px;
     display: flex;
@@ -248,6 +248,7 @@ footer{
 .menu-hidden{
     visibility: hidden;
 }
+
 
 /*travel*/
 .map-container{

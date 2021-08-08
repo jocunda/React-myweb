@@ -11,6 +11,7 @@ import TextHeaderBlog from "./TextHeaderBlog";
 import BlogAbout from "./BlogAbout";
 import Languages from "./Languages";
 import BackBlogIcon from "./BackBlogIcon";
+import BlogCard from "./BlogCard";
 
 export {
     WidgetClock,
@@ -25,5 +26,6 @@ export {
     Languages,
     TextHeaderBlog,
     BlogAbout,
-    BackBlogIcon
+    BackBlogIcon,
+    BlogCard
 }
