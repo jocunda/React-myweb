@@ -68,6 +68,7 @@
     padding:0px;
     margin:0px;
     border-radius: 10px;
+    margin-left: ;
 }
 
 .tblog-title{
@@ -75,9 +76,7 @@
     padding:5px;
 }
 .travelpic{
-    width: 300px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    width: 150px;
 }
 .date-post{
     font-style: italic;

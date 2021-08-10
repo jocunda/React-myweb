@@ -210,8 +210,8 @@ export default function Taiwanmap() {
 			>{city.cityname}</p>
 		)}
 
-		<div className="blogcard-container">
+		{/* <div className="blogcard-container">
 			<BlogCard />
-		</div>
+		</div> */}
 	</>
 }
