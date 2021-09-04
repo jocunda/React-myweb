@@ -1,22 +1,22 @@
 {
   "files": {
-    "Blog.js": "/React-myweb/static/js/Blog.ce71afb4.chunk.js",
+    "Blog.js": "/React-myweb/static/js/Blog.45dce695.chunk.js",
     "Contact.css": "/React-myweb/static/css/Contact.c1066231.chunk.css",
-    "Contact.js": "/React-myweb/static/js/Contact.c35d7fca.chunk.js",
-    "Doc.js": "/React-myweb/static/js/Doc.7e0a2b36.chunk.js",
+    "Contact.js": "/React-myweb/static/js/Contact.5996c562.chunk.js",
+    "Doc.js": "/React-myweb/static/js/Doc.6ff1c9a2.chunk.js",
     "Exp.css": "/React-myweb/static/css/Exp.c1066231.chunk.css",
-    "Exp.js": "/React-myweb/static/js/Exp.20ca3b54.chunk.js",
-    "Food.js": "/React-myweb/static/js/Food.59c137bc.chunk.js",
+    "Exp.js": "/React-myweb/static/js/Exp.302fe20c.chunk.js",
+    "Food.js": "/React-myweb/static/js/Food.48829fd3.chunk.js",
     "Home.css": "/React-myweb/static/css/Home.c1066231.chunk.css",
-    "Home.js": "/React-myweb/static/js/Home.faf8362e.chunk.js",
+    "Home.js": "/React-myweb/static/js/Home.279a17d1.chunk.js",
     "Porto.css": "/React-myweb/static/css/Porto.c1066231.chunk.css",
-    "Porto.js": "/React-myweb/static/js/Porto.4d3efb3c.chunk.js",
-    "Study.js": "/React-myweb/static/js/Study.bbb0e05e.chunk.js",
+    "Porto.js": "/React-myweb/static/js/Porto.c30a57bb.chunk.js",
+    "Study.js": "/React-myweb/static/js/Study.c2d8a2a5.chunk.js",
     "Travel.css": "/React-myweb/static/css/Travel.c1066231.chunk.css",
-    "Travel.js": "/React-myweb/static/js/Travel.0bb7ac2f.chunk.js",
+    "Travel.js": "/React-myweb/static/js/Travel.6adef498.chunk.js",
     "main.css": "/React-myweb/static/css/main.c105205d.chunk.css",
-    "main.js": "/React-myweb/static/js/main.e8c2264a.chunk.js",
-    "runtime-main.js": "/React-myweb/static/js/runtime-main.947c16da.js",
+    "main.js": "/React-myweb/static/js/main.04ef0fc3.chunk.js",
+    "runtime-main.js": "/React-myweb/static/js/runtime-main.35ac1f00.js",
     "static/js/11.a59626ab.chunk.js": "/React-myweb/static/js/11.a59626ab.chunk.js",
     "static/js/12.d42dba44.chunk.js": "/React-myweb/static/js/12.d42dba44.chunk.js",
     "index.html": "/React-myweb/index.html",
@@ -30,9 +30,9 @@
     "static/media/univ2.225876ea.png": "/React-myweb/static/media/univ2.225876ea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.947c16da.js",
+    "static/js/runtime-main.35ac1f00.js",
     "static/js/11.a59626ab.chunk.js",
     "static/css/main.c105205d.chunk.css",
-    "static/js/main.e8c2264a.chunk.js"
+    "static/js/main.04ef0fc3.chunk.js"
   ]
 }
