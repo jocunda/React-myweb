@@ -1,6 +1,8 @@
 import univ1 from './univ1.png';
 import univ2 from './univ2.png';
 import login from './login.gif';
+import globe from './globe.gif';
+import globejpg from './globejpg.jpg';
 import loginjpg from './loginjpg.jpg';
 import silvia from './silvia.jpg'
 
@@ -9,5 +11,7 @@ export {
     univ2,
     login,
     loginjpg,
-    silvia
+    silvia,
+    globe,
+    globejpg,
 }
