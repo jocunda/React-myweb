@@ -1,28 +1,30 @@
 {
   "files": {
-    "Blog.js": "/React-myweb/static/js/Blog.45dce695.chunk.js",
+    "Blog.js": "/React-myweb/static/js/Blog.bb0df5f5.chunk.js",
     "Contact.css": "/React-myweb/static/css/Contact.c1066231.chunk.css",
-    "Contact.js": "/React-myweb/static/js/Contact.5996c562.chunk.js",
+    "Contact.js": "/React-myweb/static/js/Contact.d9abd61d.chunk.js",
     "Doc.js": "/React-myweb/static/js/Doc.6ff1c9a2.chunk.js",
     "Exp.css": "/React-myweb/static/css/Exp.c1066231.chunk.css",
-    "Exp.js": "/React-myweb/static/js/Exp.302fe20c.chunk.js",
+    "Exp.js": "/React-myweb/static/js/Exp.69b1349a.chunk.js",
     "Food.js": "/React-myweb/static/js/Food.48829fd3.chunk.js",
     "Home.css": "/React-myweb/static/css/Home.c1066231.chunk.css",
-    "Home.js": "/React-myweb/static/js/Home.279a17d1.chunk.js",
+    "Home.js": "/React-myweb/static/js/Home.95111549.chunk.js",
     "Porto.css": "/React-myweb/static/css/Porto.c1066231.chunk.css",
     "Porto.js": "/React-myweb/static/js/Porto.c30a57bb.chunk.js",
     "Study.js": "/React-myweb/static/js/Study.c2d8a2a5.chunk.js",
     "Travel.css": "/React-myweb/static/css/Travel.c1066231.chunk.css",
     "Travel.js": "/React-myweb/static/js/Travel.6adef498.chunk.js",
     "main.css": "/React-myweb/static/css/main.c105205d.chunk.css",
-    "main.js": "/React-myweb/static/js/main.04ef0fc3.chunk.js",
-    "runtime-main.js": "/React-myweb/static/js/runtime-main.35ac1f00.js",
-    "static/js/11.a59626ab.chunk.js": "/React-myweb/static/js/11.a59626ab.chunk.js",
+    "main.js": "/React-myweb/static/js/main.f875c362.chunk.js",
+    "runtime-main.js": "/React-myweb/static/js/runtime-main.e851321f.js",
+    "static/js/11.52fc945e.chunk.js": "/React-myweb/static/js/11.52fc945e.chunk.js",
     "static/js/12.d42dba44.chunk.js": "/React-myweb/static/js/12.d42dba44.chunk.js",
     "index.html": "/React-myweb/index.html",
-    "static/js/11.a59626ab.chunk.js.LICENSE.txt": "/React-myweb/static/js/11.a59626ab.chunk.js.LICENSE.txt",
+    "static/js/11.52fc945e.chunk.js.LICENSE.txt": "/React-myweb/static/js/11.52fc945e.chunk.js.LICENSE.txt",
     "static/media/Taitung1.65e1b9cc.jpg": "/React-myweb/static/media/Taitung1.65e1b9cc.jpg",
     "static/media/Taitung2.8c0ebec3.jpg": "/React-myweb/static/media/Taitung2.8c0ebec3.jpg",
+    "static/media/globe.6e61acb1.gif": "/React-myweb/static/media/globe.6e61acb1.gif",
+    "static/media/globejpg.0bd22cf9.jpg": "/React-myweb/static/media/globejpg.0bd22cf9.jpg",
     "static/media/login.a9039ff4.gif": "/React-myweb/static/media/login.a9039ff4.gif",
     "static/media/loginjpg.90c45421.jpg": "/React-myweb/static/media/loginjpg.90c45421.jpg",
     "static/media/silvia.f2b68b94.jpg": "/React-myweb/static/media/silvia.f2b68b94.jpg",
@@ -30,9 +32,9 @@
     "static/media/univ2.225876ea.png": "/React-myweb/static/media/univ2.225876ea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.35ac1f00.js",
-    "static/js/11.a59626ab.chunk.js",
+    "static/js/runtime-main.e851321f.js",
+    "static/js/11.52fc945e.chunk.js",
     "static/css/main.c105205d.chunk.css",
-    "static/js/main.04ef0fc3.chunk.js"
+    "static/js/main.f875c362.chunk.js"
   ]
 }
