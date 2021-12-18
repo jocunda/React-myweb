@@ -3,6 +3,8 @@ import {
    loginjpg,
    globe,
    globejpg,
+   todo,
+   todojpeg,
 } from "images"
 
 const dataimages: Images[] = [
@@ -19,9 +21,10 @@ const dataimages: Images[] = [
       tempimage: globe
    },
    {
-      image: "https://picsum.photos/id/1037/600/900",
-      text: "My Portfolio",
-      link: "",
+      image: todojpeg,
+      text: "To do List",
+      link: "https://jocunda.github.io/React-todo/",
+      tempimage: todojpeg
    },
    {
       image: "https://picsum.photos/id/1038/600/600",

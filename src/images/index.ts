@@ -5,6 +5,8 @@ import globe from './globe.gif';
 import globejpg from './globejpg.jpg';
 import loginjpg from './loginjpg.jpg';
 import silvia from './silvia.jpg'
+import todo from './todo.gif';
+import todojpeg from './todojpeg.jpg';
 
 export {
     univ1,
@@ -14,4 +16,6 @@ export {
     silvia,
     globe,
     globejpg,
+    todo,
+    todojpeg
 }
