@@ -22,9 +22,9 @@ const dataimages: Images[] = [
    },
    {
       image: todojpeg,
-      text: "To do List",
+      text: "Todo list using react framework, which have option add, mark and delete",
       link: "https://jocunda.github.io/React-todo/",
-      tempimage: todojpeg
+      tempimage: todo
    },
    {
       image: "https://picsum.photos/id/1038/600/600",
