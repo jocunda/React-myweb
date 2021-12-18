@@ -5,7 +5,7 @@
     "Contact.js": "/React-myweb/static/js/Contact.d9abd61d.chunk.js",
     "Doc.js": "/React-myweb/static/js/Doc.6ff1c9a2.chunk.js",
     "Exp.css": "/React-myweb/static/css/Exp.c1066231.chunk.css",
-    "Exp.js": "/React-myweb/static/js/Exp.68cac09a.chunk.js",
+    "Exp.js": "/React-myweb/static/js/Exp.9f61e864.chunk.js",
     "Food.js": "/React-myweb/static/js/Food.48829fd3.chunk.js",
     "Home.css": "/React-myweb/static/css/Home.c1066231.chunk.css",
     "Home.js": "/React-myweb/static/js/Home.95111549.chunk.js",
@@ -15,8 +15,8 @@
     "Travel.css": "/React-myweb/static/css/Travel.c1066231.chunk.css",
     "Travel.js": "/React-myweb/static/js/Travel.6adef498.chunk.js",
     "main.css": "/React-myweb/static/css/main.c105205d.chunk.css",
-    "main.js": "/React-myweb/static/js/main.b9cedba8.chunk.js",
-    "runtime-main.js": "/React-myweb/static/js/runtime-main.e69653e1.js",
+    "main.js": "/React-myweb/static/js/main.25d00975.chunk.js",
+    "runtime-main.js": "/React-myweb/static/js/runtime-main.e6f4a49b.js",
     "static/js/11.64badb7a.chunk.js": "/React-myweb/static/js/11.64badb7a.chunk.js",
     "static/js/12.d42dba44.chunk.js": "/React-myweb/static/js/12.d42dba44.chunk.js",
     "index.html": "/React-myweb/index.html",
@@ -34,9 +34,9 @@
     "static/media/univ2.225876ea.png": "/React-myweb/static/media/univ2.225876ea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e69653e1.js",
+    "static/js/runtime-main.e6f4a49b.js",
     "static/js/11.64badb7a.chunk.js",
     "static/css/main.c105205d.chunk.css",
-    "static/js/main.b9cedba8.chunk.js"
+    "static/js/main.25d00975.chunk.js"
   ]
 }
