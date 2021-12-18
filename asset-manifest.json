@@ -5,7 +5,7 @@
     "Contact.js": "/React-myweb/static/js/Contact.d9abd61d.chunk.js",
     "Doc.js": "/React-myweb/static/js/Doc.6ff1c9a2.chunk.js",
     "Exp.css": "/React-myweb/static/css/Exp.c1066231.chunk.css",
-    "Exp.js": "/React-myweb/static/js/Exp.69b1349a.chunk.js",
+    "Exp.js": "/React-myweb/static/js/Exp.68cac09a.chunk.js",
     "Food.js": "/React-myweb/static/js/Food.48829fd3.chunk.js",
     "Home.css": "/React-myweb/static/css/Home.c1066231.chunk.css",
     "Home.js": "/React-myweb/static/js/Home.95111549.chunk.js",
@@ -15,12 +15,12 @@
     "Travel.css": "/React-myweb/static/css/Travel.c1066231.chunk.css",
     "Travel.js": "/React-myweb/static/js/Travel.6adef498.chunk.js",
     "main.css": "/React-myweb/static/css/main.c105205d.chunk.css",
-    "main.js": "/React-myweb/static/js/main.f875c362.chunk.js",
-    "runtime-main.js": "/React-myweb/static/js/runtime-main.e851321f.js",
-    "static/js/11.52fc945e.chunk.js": "/React-myweb/static/js/11.52fc945e.chunk.js",
+    "main.js": "/React-myweb/static/js/main.b9cedba8.chunk.js",
+    "runtime-main.js": "/React-myweb/static/js/runtime-main.e69653e1.js",
+    "static/js/11.64badb7a.chunk.js": "/React-myweb/static/js/11.64badb7a.chunk.js",
     "static/js/12.d42dba44.chunk.js": "/React-myweb/static/js/12.d42dba44.chunk.js",
     "index.html": "/React-myweb/index.html",
-    "static/js/11.52fc945e.chunk.js.LICENSE.txt": "/React-myweb/static/js/11.52fc945e.chunk.js.LICENSE.txt",
+    "static/js/11.64badb7a.chunk.js.LICENSE.txt": "/React-myweb/static/js/11.64badb7a.chunk.js.LICENSE.txt",
     "static/media/Taitung1.65e1b9cc.jpg": "/React-myweb/static/media/Taitung1.65e1b9cc.jpg",
     "static/media/Taitung2.8c0ebec3.jpg": "/React-myweb/static/media/Taitung2.8c0ebec3.jpg",
     "static/media/globe.6e61acb1.gif": "/React-myweb/static/media/globe.6e61acb1.gif",
@@ -28,13 +28,15 @@
     "static/media/login.a9039ff4.gif": "/React-myweb/static/media/login.a9039ff4.gif",
     "static/media/loginjpg.90c45421.jpg": "/React-myweb/static/media/loginjpg.90c45421.jpg",
     "static/media/silvia.f2b68b94.jpg": "/React-myweb/static/media/silvia.f2b68b94.jpg",
+    "static/media/todo.59613ac8.gif": "/React-myweb/static/media/todo.59613ac8.gif",
+    "static/media/todojpeg.11b662d4.jpg": "/React-myweb/static/media/todojpeg.11b662d4.jpg",
     "static/media/univ1.efc5efe7.png": "/React-myweb/static/media/univ1.efc5efe7.png",
     "static/media/univ2.225876ea.png": "/React-myweb/static/media/univ2.225876ea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e851321f.js",
-    "static/js/11.52fc945e.chunk.js",
+    "static/js/runtime-main.e69653e1.js",
+    "static/js/11.64badb7a.chunk.js",
     "static/css/main.c105205d.chunk.css",
-    "static/js/main.f875c362.chunk.js"
+    "static/js/main.b9cedba8.chunk.js"
   ]
 }
